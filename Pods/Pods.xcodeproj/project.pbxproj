@@ -1,0 +1,1617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0201329159B32D6E779969F0 /* DDFileLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 477C34171870E037CA3C6E62 /* DDFileLogger.h */; };
+		03CC8D729F600789BE958D38 /* socket_helper.m in Sources */ = {isa = PBXBuildFile; fileRef = B5BE8F3C43967EDFAD1312F1 /* socket_helper.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		04BFF5936E288754DBD5320E /* DDContextFilterLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = F6F08077E3F24AE3E69C0AE4 /* DDContextFilterLogFormatter.h */; };
+		06D2E6C7210C28D889C48083 /* DDLogMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 23E27A995D04968FDCA368DF /* DDLogMacros.h */; };
+		0710B9E982B6DBEEAF73919F /* libssh2.h in Headers */ = {isa = PBXBuildFile; fileRef = 26A0E101D0A94D752797496A /* libssh2.h */; };
+		086FFBF73E3E44DFE7C9BBE9 /* libssh2_sftp.h in Headers */ = {isa = PBXBuildFile; fileRef = 95F355833E3610E17A1A509A /* libssh2_sftp.h */; };
+		0A053A776ED0DEFC97FF77EB /* NMSSHConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BFC61BF78CDE44E5A8ACF4F /* NMSSHConfig.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0A5A7FAB29611F515A4C01C7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FAFB8464B4EE7A95B3DCBC1 /* Cocoa.framework */; };
+		0B6B8F572456A567A9178D18 /* NMSFTPFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 832C6401D39867B8E10E3431 /* NMSFTPFile.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0DFFC6ED59683424F3D77F2A /* socket_helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CB3602DFE34FA9DB0860E75 /* socket_helper.h */; };
+		15D2A480C2CAE842220602C5 /* NMSFTPFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 65FE7CAAA61837DAEC86683B /* NMSFTPFile.h */; };
+		16985621E924088FE5E3CB66 /* NMSFTPFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 832C6401D39867B8E10E3431 /* NMSFTPFile.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1966CB5CCD601658BD10E9F0 /* libssh2_publickey.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F3AD597BE383CDE389995AE /* libssh2_publickey.h */; };
+		1A3D3B1966F2AE2905C02C70 /* NMSFTP.m in Sources */ = {isa = PBXBuildFile; fileRef = 21183F3FD127FAD6A0C3606C /* NMSFTP.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1B29D83713DF6608B1D209D4 /* DDMultiFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = E8ABBC73207D3688BC7CAEFD /* DDMultiFormatter.h */; };
+		1B3359D75CB991114C7AC5E6 /* DDASLLogCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = AFC1C68EAD4E1E141F638DD1 /* DDASLLogCapture.h */; };
+		1E19162BA09B6143CE35FCA3 /* NMSSHConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 9411FD01A3EE24263B1637EB /* NMSSHConfig.h */; };
+		20CB0D11199BF45AE10EF4F3 /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = AA704E28147342F4382B7D39 /* DDLog.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		219D94591724E47E0F03FD53 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FAFB8464B4EE7A95B3DCBC1 /* Cocoa.framework */; };
+		21C03C9B92496C7E266A120B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FAFB8464B4EE7A95B3DCBC1 /* Cocoa.framework */; };
+		248571578D97C2567CBDC2B6 /* DDDispatchQueueLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A5FD1F5E4EC76F1C4BCCE98 /* DDDispatchQueueLogFormatter.h */; };
+		256BD537E041ACF326C55B2F /* NMSSHLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 7722235BFDA96049987A5474 /* NMSSHLogger.h */; };
+		265D68A3F6E8FB997C0A1F8D /* NMSSHHostConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 56C9651117606CBD68467924 /* NMSSHHostConfig.h */; };
+		26804578FE100E108F152290 /* NMSFTPFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 832C6401D39867B8E10E3431 /* NMSFTPFile.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2916DC4ADB3A435402176B75 /* socket_helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CB3602DFE34FA9DB0860E75 /* socket_helper.h */; };
+		29AB4B905FD0BB7F5CDA9F87 /* socket_helper.m in Sources */ = {isa = PBXBuildFile; fileRef = B5BE8F3C43967EDFAD1312F1 /* socket_helper.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2A86F5DF935BC7154BE069ED /* DDTTYLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = E077656D0FD4F8738A60C7C1 /* DDTTYLogger.h */; };
+		2BE0CECF15FE0E2E505F03C1 /* NMSSHLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 1853E8AC149FDFC5D47306C7 /* NMSSHLogger.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2C4DAA2E1DF44A61CE57216F /* NMSFTP.h in Headers */ = {isa = PBXBuildFile; fileRef = 60B1D6EDF16E65419C10C3C7 /* NMSFTP.h */; };
+		2D5EE1D6F34AEF5EC757E27A /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 431CEAD545854CD1EA115AFE /* DDASLLogger.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2DD28A5874E3504F06E90711 /* DDContextFilterLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = F6F08077E3F24AE3E69C0AE4 /* DDContextFilterLogFormatter.h */; };
+		2F336943059B276DA73A4CD4 /* NMSFTP.h in Headers */ = {isa = PBXBuildFile; fileRef = 60B1D6EDF16E65419C10C3C7 /* NMSFTP.h */; };
+		31BDB5D2A69D9FEA32C4D620 /* DDContextFilterLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = F6F08077E3F24AE3E69C0AE4 /* DDContextFilterLogFormatter.h */; };
+		32430948BB76FB561A97DC28 /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = AA704E28147342F4382B7D39 /* DDLog.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3416C31D8264919255EDF599 /* Pods-CocoaLumberjack-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77FE034DAD9A2817237C5E9E /* Pods-CocoaLumberjack-dummy.m */; };
+		3468AA0DCA73217E95D630F1 /* NMSSHConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 9411FD01A3EE24263B1637EB /* NMSSHConfig.h */; };
+		34B503E136ADCB71DE96DDDC /* NMSSHChannelDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = A53D923E8909D5454FE10921 /* NMSSHChannelDelegate.h */; };
+		3768427C2C75A294D2F00079 /* DDLog+LOGV.h in Headers */ = {isa = PBXBuildFile; fileRef = BADDB1BFC1126D0340F63919 /* DDLog+LOGV.h */; };
+		38F5852BE89F3A69F6048DDD /* libssh2.h in Headers */ = {isa = PBXBuildFile; fileRef = 26A0E101D0A94D752797496A /* libssh2.h */; };
+		3D35E92D20A3A11ED46B7B2F /* DDLog+LOGV.h in Headers */ = {isa = PBXBuildFile; fileRef = BADDB1BFC1126D0340F63919 /* DDLog+LOGV.h */; };
+		3D427998FF5068ABF91E6395 /* DDDispatchQueueLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A5FD1F5E4EC76F1C4BCCE98 /* DDDispatchQueueLogFormatter.h */; };
+		3E69FF82D3E9785E41ACC3B4 /* DDContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 234DF6A63D41192ACFB0D23E /* DDContextFilterLogFormatter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3ECAF06C0D08D4C62AB09138 /* NMSFTPFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 65FE7CAAA61837DAEC86683B /* NMSFTPFile.h */; };
+		3FD48717A91CBC4E39732143 /* NMSSHHostConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E7423E7ABA9C9BF2A4CBC4 /* NMSSHHostConfig.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		416FFC171561208A25D6E06B /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB1D3446E8CCF856E1A6A69 /* DDAbstractDatabaseLogger.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		427C499BEE8DB2BA2885B167 /* NMSSH.h in Headers */ = {isa = PBXBuildFile; fileRef = F1A4FA009B8B8693DD414BA3 /* NMSSH.h */; };
+		454541E4F044B1BF56F8BA5E /* socket_helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CB3602DFE34FA9DB0860E75 /* socket_helper.h */; };
+		45875EB1449BA6BAD7EF86CD /* NMSSHSessionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AD2FD1384B332613E6FC407 /* NMSSHSessionDelegate.h */; };
+		4678B55E1D0333D7CBD180B4 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCD534D37BE888EB6F0364B /* Pods-dummy.m */; };
+		478C925BD9FC34B1F5AB9AF3 /* NMSSHSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 6757C924DDD1A72D10645D6C /* NMSSHSession.h */; };
+		4CD5BB4BC209975B1D848489 /* NMSSHHostConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 56C9651117606CBD68467924 /* NMSSHHostConfig.h */; };
+		4EE5F021E1399FF934E5F8E0 /* DDLogMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 23E27A995D04968FDCA368DF /* DDLogMacros.h */; };
+		4F92F57EC101F781E7A57DEF /* DDAssertMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 34809F5B4E8205158E74ABDD /* DDAssertMacros.h */; };
+		52915B7CC6E1EB077C503020 /* DDASLLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 8535B739C837C15A741AA126 /* DDASLLogger.h */; };
+		53680FA2514AD81A945A67EC /* DDMultiFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = E8ABBC73207D3688BC7CAEFD /* DDMultiFormatter.h */; };
+		5394A59E0F1BB8BFDEABABC5 /* NMSSHSession.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2B7F02EE866578C2398967 /* NMSSHSession.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		53EF237825FB43C4FD75B185 /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 431CEAD545854CD1EA115AFE /* DDASLLogger.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		55800C35CB4BF12B36DDDC6C /* NMSSHSession.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2B7F02EE866578C2398967 /* NMSSHSession.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		59B549FB0E8229091F0AD775 /* DDASLLogCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = AFC1C68EAD4E1E141F638DD1 /* DDASLLogCapture.h */; };
+		59CB31D0C3C2CD717D97BEAE /* DDMultiFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F763D69708746AC45B4D80 /* DDMultiFormatter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5B0FB3B6CB5619840142D7C7 /* NMSFTP.h in Headers */ = {isa = PBXBuildFile; fileRef = 60B1D6EDF16E65419C10C3C7 /* NMSFTP.h */; };
+		5C7040158456901D46630883 /* Pods-OSU_PrinterTests-NMSSH-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4298C8EE20D07CCA8593D303 /* Pods-OSU_PrinterTests-NMSSH-dummy.m */; };
+		5DC41927B7BDB894C9E7FCAC /* NMSSHLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 7722235BFDA96049987A5474 /* NMSSHLogger.h */; };
+		6032FE79206D5B10E739A677 /* socket_helper.m in Sources */ = {isa = PBXBuildFile; fileRef = B5BE8F3C43967EDFAD1312F1 /* socket_helper.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		61AEFD630204DF7CE8E762A4 /* DDFileLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 477C34171870E037CA3C6E62 /* DDFileLogger.h */; };
+		63C94EEB3C86E6D445A720C2 /* NMSSHChannelDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = A53D923E8909D5454FE10921 /* NMSSHChannelDelegate.h */; };
+		66BC3CD799085753D8E72577 /* NMSSHChannelDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = A53D923E8909D5454FE10921 /* NMSSHChannelDelegate.h */; };
+		68EB8E8A7BD059D1A7D60050 /* libssh2_sftp.h in Headers */ = {isa = PBXBuildFile; fileRef = 95F355833E3610E17A1A509A /* libssh2_sftp.h */; };
+		6BBF12002205453089F44D3A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FAFB8464B4EE7A95B3DCBC1 /* Cocoa.framework */; };
+		6E700CCD3A6E1B795A16B2F3 /* NMSSHChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = B728063F3DA21183CDA473FC /* NMSSHChannel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		710960A28D49C76230352180 /* DDMultiFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F763D69708746AC45B4D80 /* DDMultiFormatter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		72179C0C1F9605BB46BB79A3 /* Pods-OSU_PrinterTests-CocoaLumberjack-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F4B794EF1AC61EC6EDB882 /* Pods-OSU_PrinterTests-CocoaLumberjack-dummy.m */; };
+		72A8AAC39F11B923C4FD5897 /* NMSFTPFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 65FE7CAAA61837DAEC86683B /* NMSFTPFile.h */; };
+		74CA29EF43DD80DC52E83F0D /* NMSSHConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BFC61BF78CDE44E5A8ACF4F /* NMSSHConfig.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		79BB02CA1E2CCC3BEB470183 /* DDLog.h in Headers */ = {isa = PBXBuildFile; fileRef = BF6B54CA44ADC3A27C6F2022 /* DDLog.h */; };
+		7C952721A0284470E0062152 /* NMSSHSessionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AD2FD1384B332613E6FC407 /* NMSSHSessionDelegate.h */; };
+		7ECC6E8F179E70ECC5328210 /* CocoaLumberjack.h in Headers */ = {isa = PBXBuildFile; fileRef = 3317CD3328FA2E761C5C2376 /* CocoaLumberjack.h */; };
+		80EBB28C82D41E6FECF307B4 /* NMSSHHostConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E7423E7ABA9C9BF2A4CBC4 /* NMSSHHostConfig.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		81CFC09492D8FF30FD92CACB /* CocoaLumberjack.h in Headers */ = {isa = PBXBuildFile; fileRef = 3317CD3328FA2E761C5C2376 /* CocoaLumberjack.h */; };
+		867B4EF0A58C1F9585FC84EE /* NMSSHHostConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E7423E7ABA9C9BF2A4CBC4 /* NMSSHHostConfig.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		87C8120BDAA7462BEFBDB469 /* DDMultiFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = E8ABBC73207D3688BC7CAEFD /* DDMultiFormatter.h */; };
+		88532162F62AD81C9F1E2C9D /* DDAbstractDatabaseLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 7540798D65AE5F17AFFA6D2E /* DDAbstractDatabaseLogger.h */; };
+		8B5E4870903D423A0D1C2D59 /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B098F8D2A597C39C7D9594 /* DDFileLogger.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8B867C314410EBAAAA5E6DF8 /* NMSSH.h in Headers */ = {isa = PBXBuildFile; fileRef = F1A4FA009B8B8693DD414BA3 /* NMSSH.h */; };
+		8DE69CE2A973104C981178E1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FAFB8464B4EE7A95B3DCBC1 /* Cocoa.framework */; };
+		8F0B77A7908BBD12463F0DF2 /* DDASLLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 8535B739C837C15A741AA126 /* DDASLLogger.h */; };
+		8F545001739119DB18D81A54 /* Pods-OSU_PrinterTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 920BAAAB88095656A0569CDE /* Pods-OSU_PrinterTests-dummy.m */; };
+		8FF28A050B31EC0914448047 /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB1D3446E8CCF856E1A6A69 /* DDAbstractDatabaseLogger.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		906A9D170E8558F82D41CD54 /* CocoaLumberjack.h in Headers */ = {isa = PBXBuildFile; fileRef = 3317CD3328FA2E761C5C2376 /* CocoaLumberjack.h */; };
+		9277C162E76674835F78AE1F /* DDLog+LOGV.h in Headers */ = {isa = PBXBuildFile; fileRef = BADDB1BFC1126D0340F63919 /* DDLog+LOGV.h */; };
+		931994AB73620BB590396D73 /* NMSSHChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = E42DD5988D613358F95808A1 /* NMSSHChannel.h */; };
+		9F38B620FF2FBD58E147D0E0 /* DDLog.h in Headers */ = {isa = PBXBuildFile; fileRef = BF6B54CA44ADC3A27C6F2022 /* DDLog.h */; };
+		A1AA7E03EAACF831919A452D /* DDContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 234DF6A63D41192ACFB0D23E /* DDContextFilterLogFormatter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A26C15CEAF7AAA45C312CC95 /* NMSSHLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 1853E8AC149FDFC5D47306C7 /* NMSSHLogger.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A37E9EC54508DEA3D9CC53A9 /* DDMultiFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F763D69708746AC45B4D80 /* DDMultiFormatter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A4F3B84392E5D8217A0E44FC /* DDASLLogCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA0EE22F3DC9BCFFD544B42 /* DDASLLogCapture.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A759F35F090701B10F6A7A23 /* NMSSHSessionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AD2FD1384B332613E6FC407 /* NMSSHSessionDelegate.h */; };
+		AC7EDF9AD350668217EBF7E7 /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 30886A10D4606FEF84462D27 /* DDTTYLogger.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		ACAC0C31E471ABF7F3A3BF29 /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 431CEAD545854CD1EA115AFE /* DDASLLogger.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		AF1F1AE6BB503BECE2A04223 /* DDDispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA1DBBA78E1A20BC84C9BDF /* DDDispatchQueueLogFormatter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B042F823C2DC7DA9ABC55AF0 /* NMSSHConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BFC61BF78CDE44E5A8ACF4F /* NMSSHConfig.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B29BBCDF9F20FFC493BD9E15 /* DDAbstractDatabaseLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 7540798D65AE5F17AFFA6D2E /* DDAbstractDatabaseLogger.h */; };
+		B56F638E31754B327B40F6D2 /* DDLogMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 23E27A995D04968FDCA368DF /* DDLogMacros.h */; };
+		B642721AA01DD7176C437B9A /* Pods-OSU_Printer-CocoaLumberjack-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 769B40A4ED0272C7084D7035 /* Pods-OSU_Printer-CocoaLumberjack-dummy.m */; };
+		B6E4D2D38F02D63CAC47F7D3 /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B098F8D2A597C39C7D9594 /* DDFileLogger.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B855B56C0455F6C1680AA64C /* DDLegacyMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E535CA4159737E744AC25F6 /* DDLegacyMacros.h */; };
+		B9D4BD4EDE6FD11A228A1892 /* NMSSHSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 6757C924DDD1A72D10645D6C /* NMSSHSession.h */; };
+		BA5B73BAFF27559E6B7A3BDB /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB1D3446E8CCF856E1A6A69 /* DDAbstractDatabaseLogger.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		BBFCD1AF5DD77D17021EF29C /* DDASLLogCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = AFC1C68EAD4E1E141F638DD1 /* DDASLLogCapture.h */; };
+		BCCA7855563173FFAB821CD6 /* DDTTYLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = E077656D0FD4F8738A60C7C1 /* DDTTYLogger.h */; };
+		BF87CF44A0C7AA12348348ED /* NMSSHConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 9411FD01A3EE24263B1637EB /* NMSSHConfig.h */; };
+		C134CA649B01B4C50C16AE39 /* NMSSHHostConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 56C9651117606CBD68467924 /* NMSSHHostConfig.h */; };
+		C19E5A3BA547483D8B509231 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FAFB8464B4EE7A95B3DCBC1 /* Cocoa.framework */; };
+		C1B515C69D7E5588FA4D2F85 /* libssh2_publickey.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F3AD597BE383CDE389995AE /* libssh2_publickey.h */; };
+		C255A5DA217FA48B96D0892E /* DDDispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA1DBBA78E1A20BC84C9BDF /* DDDispatchQueueLogFormatter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C30DCA5627A2D32AE042443A /* NMSSH+Protected.h in Headers */ = {isa = PBXBuildFile; fileRef = 16A8B306FD019F996EF467A9 /* NMSSH+Protected.h */; };
+		C67CB63EC79082198EE5AE5C /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 30886A10D4606FEF84462D27 /* DDTTYLogger.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C770061CB56FD837848ED98B /* DDDispatchQueueLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A5FD1F5E4EC76F1C4BCCE98 /* DDDispatchQueueLogFormatter.h */; };
+		C884680A68D36B9B6DC64B6E /* libssh2_publickey.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F3AD597BE383CDE389995AE /* libssh2_publickey.h */; };
+		C8BF569563493A3AF491A1E2 /* NMSSHChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = B728063F3DA21183CDA473FC /* NMSSHChannel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C91EDECFEBCB9CD12B2104FA /* DDLegacyMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E535CA4159737E744AC25F6 /* DDLegacyMacros.h */; };
+		C956DCB243A5AC32AF3C0CF8 /* NMSSHChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = E42DD5988D613358F95808A1 /* NMSSHChannel.h */; };
+		CDECF023E3809289A5DD6307 /* Pods-OSU_Printer-NMSSH-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7AEF4E785E48CFB46ABFC9 /* Pods-OSU_Printer-NMSSH-dummy.m */; };
+		CF379B5E004F73818C9306B2 /* DDASLLogCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA0EE22F3DC9BCFFD544B42 /* DDASLLogCapture.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D4DD1A75ABC94B1F82FFDCF1 /* NMSSHChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = B728063F3DA21183CDA473FC /* NMSSHChannel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D52ED015C6A4CD0B4D58CC07 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FAFB8464B4EE7A95B3DCBC1 /* Cocoa.framework */; };
+		D583928E70717AEC1F96D627 /* libssh2_sftp.h in Headers */ = {isa = PBXBuildFile; fileRef = 95F355833E3610E17A1A509A /* libssh2_sftp.h */; };
+		D7D2C763B2D1DD4A04E2AFAE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FAFB8464B4EE7A95B3DCBC1 /* Cocoa.framework */; };
+		DD1F0EBC7A21FE76FA16986F /* Pods-OSU_Printer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 593A839B5E76AB2A0A570839 /* Pods-OSU_Printer-dummy.m */; };
+		DF4A65F07792283CE574012A /* NMSSH.h in Headers */ = {isa = PBXBuildFile; fileRef = F1A4FA009B8B8693DD414BA3 /* NMSSH.h */; };
+		E04776851C713C91C433729C /* DDTTYLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = E077656D0FD4F8738A60C7C1 /* DDTTYLogger.h */; };
+		E073703A581F5372DC7D3A7E /* DDLog.h in Headers */ = {isa = PBXBuildFile; fileRef = BF6B54CA44ADC3A27C6F2022 /* DDLog.h */; };
+		E1CB0BB7CC8683E539B4A3A5 /* NMSSHSession.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2B7F02EE866578C2398967 /* NMSSHSession.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E2BD9F029B7B35E15F0C3082 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FAFB8464B4EE7A95B3DCBC1 /* Cocoa.framework */; };
+		E32D41E7490A3D7E13F7A8E8 /* NMSSHLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 1853E8AC149FDFC5D47306C7 /* NMSSHLogger.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E35078E2C0F66AC7039F7570 /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = AA704E28147342F4382B7D39 /* DDLog.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E6CB97434DEBE55DFC6EB81C /* NMSSHChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = E42DD5988D613358F95808A1 /* NMSSHChannel.h */; };
+		E7F3DBCE98BF493090AF8748 /* NMSSHSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 6757C924DDD1A72D10645D6C /* NMSSHSession.h */; };
+		E9618BE2972580368B9E085A /* DDContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 234DF6A63D41192ACFB0D23E /* DDContextFilterLogFormatter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EB1605063A67D3D2C145CDB8 /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B098F8D2A597C39C7D9594 /* DDFileLogger.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EBB8F8503F6C7EDC4F318C22 /* DDAbstractDatabaseLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 7540798D65AE5F17AFFA6D2E /* DDAbstractDatabaseLogger.h */; };
+		ECA1FC3B428734F5D87EE7C7 /* NMSSH+Protected.h in Headers */ = {isa = PBXBuildFile; fileRef = 16A8B306FD019F996EF467A9 /* NMSSH+Protected.h */; };
+		EFD5BFDE048E0ECC1D8C2B5E /* DDLegacyMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E535CA4159737E744AC25F6 /* DDLegacyMacros.h */; };
+		F00085310CB593C212FB6153 /* NMSFTP.m in Sources */ = {isa = PBXBuildFile; fileRef = 21183F3FD127FAD6A0C3606C /* NMSFTP.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F07BB377F85A5BCF7912A823 /* DDASLLogCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA0EE22F3DC9BCFFD544B42 /* DDASLLogCapture.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F18A3DBF24DDF8AB7EF75712 /* DDFileLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 477C34171870E037CA3C6E62 /* DDFileLogger.h */; };
+		F2659D644C2297D8AC922AC1 /* NMSFTP.m in Sources */ = {isa = PBXBuildFile; fileRef = 21183F3FD127FAD6A0C3606C /* NMSFTP.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F5986263FC1F86A9D0EBE9B3 /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 30886A10D4606FEF84462D27 /* DDTTYLogger.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F5CC8B4633395B7BDA431922 /* DDDispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA1DBBA78E1A20BC84C9BDF /* DDDispatchQueueLogFormatter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F616A086D27A44CFF61B5306 /* DDAssertMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 34809F5B4E8205158E74ABDD /* DDAssertMacros.h */; };
+		F8D479F5483D2085721FAA17 /* NMSSHLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 7722235BFDA96049987A5474 /* NMSSHLogger.h */; };
+		FD6CD4D11D63BAA6A9D381D8 /* NMSSH+Protected.h in Headers */ = {isa = PBXBuildFile; fileRef = 16A8B306FD019F996EF467A9 /* NMSSH+Protected.h */; };
+		FEE612E569A5E8FB18F97501 /* Pods-NMSSH-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C0EB0617570E237019BC6BB6 /* Pods-NMSSH-dummy.m */; };
+		FF123D84AFECCE2CB8E385B8 /* DDASLLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 8535B739C837C15A741AA126 /* DDASLLogger.h */; };
+		FF468C7044D543AEC5BFFA34 /* DDAssertMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 34809F5B4E8205158E74ABDD /* DDAssertMacros.h */; };
+		FFAF1938FC8EB68DA3DF89D8 /* libssh2.h in Headers */ = {isa = PBXBuildFile; fileRef = 26A0E101D0A94D752797496A /* libssh2.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07242F9E80BAE7DAC0B43765 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 560CFCE7313B6830F4AB618C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF188D0A7C6340C8264A2903;
+			remoteInfo = "Pods-CocoaLumberjack";
+		};
+		5B237D5186CE2C8702F1927B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 560CFCE7313B6830F4AB618C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A78D1FDF0DFDB5324FA1F874;
+			remoteInfo = "Pods-OSU_PrinterTests-CocoaLumberjack";
+		};
+		6426296EB13C18CCF9CBC1AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 560CFCE7313B6830F4AB618C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E507C96442BD9CEBA633D69;
+			remoteInfo = "Pods-NMSSH";
+		};
+		8111D461B6EE02751DFC5EB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 560CFCE7313B6830F4AB618C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D52FD898268EECCB9498F6C4;
+			remoteInfo = "Pods-OSU_Printer-NMSSH";
+		};
+		9F6E02FCA3863693F30055B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 560CFCE7313B6830F4AB618C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0FD0CB284821A29B66DCD741;
+			remoteInfo = "Pods-OSU_PrinterTests-NMSSH";
+		};
+		D5CD7570503487590AEDA7F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 560CFCE7313B6830F4AB618C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 992BC012DDDCC6B4E8B875A0;
+			remoteInfo = "Pods-OSU_Printer-CocoaLumberjack";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		012CCA7E00D23C961817F3F0 /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		06ECEC89BAB5C90A5854E0F2 /* Pods-OSU_PrinterTests-NMSSH-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSU_PrinterTests-NMSSH-Private.xcconfig"; path = "../Pods-OSU_PrinterTests-NMSSH/Pods-OSU_PrinterTests-NMSSH-Private.xcconfig"; sourceTree = "<group>"; };
+		0A5C174FA4A375628BC902A5 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		10D2C97E64D99E26862DA8F6 /* Pods-OSU_PrinterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OSU_PrinterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		16A8B306FD019F996EF467A9 /* NMSSH+Protected.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NMSSH+Protected.h"; path = "NMSSH/Config/NMSSH+Protected.h"; sourceTree = "<group>"; };
+		1853E8AC149FDFC5D47306C7 /* NMSSHLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NMSSHLogger.m; path = NMSSH/Config/NMSSHLogger.m; sourceTree = "<group>"; };
+		19E7423E7ABA9C9BF2A4CBC4 /* NMSSHHostConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NMSSHHostConfig.m; path = NMSSH/NMSSHHostConfig.m; sourceTree = "<group>"; };
+		1B8E059C9323E91B4F8E9EFC /* Pods-OSU_PrinterTests-CocoaLumberjack.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSU_PrinterTests-CocoaLumberjack.xcconfig"; path = "../Pods-OSU_PrinterTests-CocoaLumberjack/Pods-OSU_PrinterTests-CocoaLumberjack.xcconfig"; sourceTree = "<group>"; };
+		1CB3602DFE34FA9DB0860E75 /* socket_helper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = socket_helper.h; path = NMSSH/Config/socket_helper.h; sourceTree = "<group>"; };
+		1D564C22E051A56FC2EC9BD2 /* Pods-OSU_Printer-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OSU_Printer-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1E93CF07D9230E808C377685 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		21183F3FD127FAD6A0C3606C /* NMSFTP.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NMSFTP.m; path = NMSSH/NMSFTP.m; sourceTree = "<group>"; };
+		21A222EC5D94000C629474A3 /* libPods-OSU_PrinterTests-CocoaLumberjack.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OSU_PrinterTests-CocoaLumberjack.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21B098F8D2A597C39C7D9594 /* DDFileLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDFileLogger.m; path = Classes/DDFileLogger.m; sourceTree = "<group>"; };
+		234DF6A63D41192ACFB0D23E /* DDContextFilterLogFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDContextFilterLogFormatter.m; path = Classes/Extensions/DDContextFilterLogFormatter.m; sourceTree = "<group>"; };
+		23E27A995D04968FDCA368DF /* DDLogMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLogMacros.h; path = Classes/DDLogMacros.h; sourceTree = "<group>"; };
+		26903CFFE9ACBBC72C9AC134 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		26A0E101D0A94D752797496A /* libssh2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = libssh2.h; path = "NMSSH-OSX/Libraries/include/libssh2/libssh2.h"; sourceTree = "<group>"; };
+		2A3198C8832A7D994A594A5A /* Pods-OSU_Printer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OSU_Printer.debug.xcconfig"; sourceTree = "<group>"; };
+		2A5FD1F5E4EC76F1C4BCCE98 /* DDDispatchQueueLogFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDDispatchQueueLogFormatter.h; path = Classes/Extensions/DDDispatchQueueLogFormatter.h; sourceTree = "<group>"; };
+		30886A10D4606FEF84462D27 /* DDTTYLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDTTYLogger.m; path = Classes/DDTTYLogger.m; sourceTree = "<group>"; };
+		32D88852218E1CAA6D60AA68 /* Pods-NMSSH-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NMSSH-prefix.pch"; sourceTree = "<group>"; };
+		32E6A6407F6FAE968A1E4F68 /* Pods-OSU_Printer-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OSU_Printer-acknowledgements.plist"; sourceTree = "<group>"; };
+		32F4B794EF1AC61EC6EDB882 /* Pods-OSU_PrinterTests-CocoaLumberjack-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-OSU_PrinterTests-CocoaLumberjack-dummy.m"; path = "../Pods-OSU_PrinterTests-CocoaLumberjack/Pods-OSU_PrinterTests-CocoaLumberjack-dummy.m"; sourceTree = "<group>"; };
+		3317CD3328FA2E761C5C2376 /* CocoaLumberjack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CocoaLumberjack.h; path = Classes/CocoaLumberjack.h; sourceTree = "<group>"; };
+		34809F5B4E8205158E74ABDD /* DDAssertMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDAssertMacros.h; path = Classes/DDAssertMacros.h; sourceTree = "<group>"; };
+		3578DD38D07897281A3AF29D /* Pods-NMSSH-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NMSSH-Private.xcconfig"; sourceTree = "<group>"; };
+		35FEE88622C092C500296E74 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		3AA5BA34F6AA42E482F2B854 /* Pods-OSU_Printer-CocoaLumberjack-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSU_Printer-CocoaLumberjack-Private.xcconfig"; path = "../Pods-OSU_Printer-CocoaLumberjack/Pods-OSU_Printer-CocoaLumberjack-Private.xcconfig"; sourceTree = "<group>"; };
+		3BA1DBBA78E1A20BC84C9BDF /* DDDispatchQueueLogFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDDispatchQueueLogFormatter.m; path = Classes/Extensions/DDDispatchQueueLogFormatter.m; sourceTree = "<group>"; };
+		3F6298F3EE6025AB07DDF659 /* Pods-OSU_PrinterTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OSU_PrinterTests-resources.sh"; sourceTree = "<group>"; };
+		4298C8EE20D07CCA8593D303 /* Pods-OSU_PrinterTests-NMSSH-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-OSU_PrinterTests-NMSSH-dummy.m"; path = "../Pods-OSU_PrinterTests-NMSSH/Pods-OSU_PrinterTests-NMSSH-dummy.m"; sourceTree = "<group>"; };
+		431CEAD545854CD1EA115AFE /* DDASLLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDASLLogger.m; path = Classes/DDASLLogger.m; sourceTree = "<group>"; };
+		4397BC15FA1069DFA8DF4582 /* Pods-CocoaLumberjack-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CocoaLumberjack-Private.xcconfig"; sourceTree = "<group>"; };
+		475C5D9440EA19B8292FFD5B /* Pods-OSU_Printer-CocoaLumberjack-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-OSU_Printer-CocoaLumberjack-prefix.pch"; path = "../Pods-OSU_Printer-CocoaLumberjack/Pods-OSU_Printer-CocoaLumberjack-prefix.pch"; sourceTree = "<group>"; };
+		477C34171870E037CA3C6E62 /* DDFileLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDFileLogger.h; path = Classes/DDFileLogger.h; sourceTree = "<group>"; };
+		478C65F87E64E3CAB2550C4A /* Pods-OSU_PrinterTests-CocoaLumberjack-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSU_PrinterTests-CocoaLumberjack-Private.xcconfig"; path = "../Pods-OSU_PrinterTests-CocoaLumberjack/Pods-OSU_PrinterTests-CocoaLumberjack-Private.xcconfig"; sourceTree = "<group>"; };
+		4EBFF0659F41166B9449DBD7 /* libPods-OSU_PrinterTests-NMSSH.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OSU_PrinterTests-NMSSH.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FAFB8464B4EE7A95B3DCBC1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		56C216778B13386A8AA7B1CC /* Pods-OSU_PrinterTests-CocoaLumberjack-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-OSU_PrinterTests-CocoaLumberjack-prefix.pch"; path = "../Pods-OSU_PrinterTests-CocoaLumberjack/Pods-OSU_PrinterTests-CocoaLumberjack-prefix.pch"; sourceTree = "<group>"; };
+		56C9651117606CBD68467924 /* NMSSHHostConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NMSSHHostConfig.h; path = NMSSH/NMSSHHostConfig.h; sourceTree = "<group>"; };
+		593A839B5E76AB2A0A570839 /* Pods-OSU_Printer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OSU_Printer-dummy.m"; sourceTree = "<group>"; };
+		5AA0EE22F3DC9BCFFD544B42 /* DDASLLogCapture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDASLLogCapture.m; path = Classes/DDASLLogCapture.m; sourceTree = "<group>"; };
+		5AD2FD1384B332613E6FC407 /* NMSSHSessionDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NMSSHSessionDelegate.h; path = NMSSH/Protocols/NMSSHSessionDelegate.h; sourceTree = "<group>"; };
+		5E0C3DA4292ED6A5ACCCD566 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		60B1D6EDF16E65419C10C3C7 /* NMSFTP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NMSFTP.h; path = NMSSH/NMSFTP.h; sourceTree = "<group>"; };
+		63F5A7F0B7BF4040E60311B2 /* Pods-CocoaLumberjack.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CocoaLumberjack.xcconfig"; sourceTree = "<group>"; };
+		647D9A4B1803E0B377F6D952 /* Pods-OSU_PrinterTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OSU_PrinterTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		65FE7CAAA61837DAEC86683B /* NMSFTPFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NMSFTPFile.h; path = NMSSH/NMSFTPFile.h; sourceTree = "<group>"; };
+		6757C924DDD1A72D10645D6C /* NMSSHSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NMSSHSession.h; path = NMSSH/NMSSHSession.h; sourceTree = "<group>"; };
+		6A7AEF4E785E48CFB46ABFC9 /* Pods-OSU_Printer-NMSSH-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-OSU_Printer-NMSSH-dummy.m"; path = "../Pods-OSU_Printer-NMSSH/Pods-OSU_Printer-NMSSH-dummy.m"; sourceTree = "<group>"; };
+		73099FC11395C96A44CC1A4E /* libssh2.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libssh2.a; path = "NMSSH-OSX/Libraries/lib/libssh2.a"; sourceTree = "<group>"; };
+		7540798D65AE5F17AFFA6D2E /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDAbstractDatabaseLogger.h; path = Classes/DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
+		769B40A4ED0272C7084D7035 /* Pods-OSU_Printer-CocoaLumberjack-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-OSU_Printer-CocoaLumberjack-dummy.m"; path = "../Pods-OSU_Printer-CocoaLumberjack/Pods-OSU_Printer-CocoaLumberjack-dummy.m"; sourceTree = "<group>"; };
+		76E42215BF1C65054DC60762 /* Pods-OSU_PrinterTests-NMSSH-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-OSU_PrinterTests-NMSSH-prefix.pch"; path = "../Pods-OSU_PrinterTests-NMSSH/Pods-OSU_PrinterTests-NMSSH-prefix.pch"; sourceTree = "<group>"; };
+		7722235BFDA96049987A5474 /* NMSSHLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NMSSHLogger.h; path = NMSSH/Config/NMSSHLogger.h; sourceTree = "<group>"; };
+		77FE034DAD9A2817237C5E9E /* Pods-CocoaLumberjack-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CocoaLumberjack-dummy.m"; sourceTree = "<group>"; };
+		79C65A616B837EAEAA33EF90 /* libPods-OSU_Printer-NMSSH.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OSU_Printer-NMSSH.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		832C6401D39867B8E10E3431 /* NMSFTPFile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NMSFTPFile.m; path = NMSSH/NMSFTPFile.m; sourceTree = "<group>"; };
+		8535B739C837C15A741AA126 /* DDASLLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDASLLogger.h; path = Classes/DDASLLogger.h; sourceTree = "<group>"; };
+		86E31909558BE20D9770E4E7 /* Pods-OSU_PrinterTests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OSU_PrinterTests-environment.h"; sourceTree = "<group>"; };
+		88F763D69708746AC45B4D80 /* DDMultiFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDMultiFormatter.m; path = Classes/Extensions/DDMultiFormatter.m; sourceTree = "<group>"; };
+		8BFC61BF78CDE44E5A8ACF4F /* NMSSHConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NMSSHConfig.m; path = NMSSH/NMSSHConfig.m; sourceTree = "<group>"; };
+		8E535CA4159737E744AC25F6 /* DDLegacyMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLegacyMacros.h; path = Classes/DDLegacyMacros.h; sourceTree = "<group>"; };
+		8EE467603E0F2C7AA69ECAE2 /* libPods-OSU_PrinterTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OSU_PrinterTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		920BAAAB88095656A0569CDE /* Pods-OSU_PrinterTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OSU_PrinterTests-dummy.m"; sourceTree = "<group>"; };
+		9411FD01A3EE24263B1637EB /* NMSSHConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NMSSHConfig.h; path = NMSSH/NMSSHConfig.h; sourceTree = "<group>"; };
+		95F355833E3610E17A1A509A /* libssh2_sftp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = libssh2_sftp.h; path = "NMSSH-OSX/Libraries/include/libssh2/libssh2_sftp.h"; sourceTree = "<group>"; };
+		9888994105D24AA6F085E835 /* libPods-NMSSH.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NMSSH.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D6A7EC025F392C09905F504 /* Pods-OSU_Printer-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OSU_Printer-resources.sh"; sourceTree = "<group>"; };
+		9F3AD597BE383CDE389995AE /* libssh2_publickey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = libssh2_publickey.h; path = "NMSSH-OSX/Libraries/include/libssh2/libssh2_publickey.h"; sourceTree = "<group>"; };
+		A140D936420BD77ED9828188 /* Pods-NMSSH.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NMSSH.xcconfig"; sourceTree = "<group>"; };
+		A53D923E8909D5454FE10921 /* NMSSHChannelDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NMSSHChannelDelegate.h; path = NMSSH/Protocols/NMSSHChannelDelegate.h; sourceTree = "<group>"; };
+		A643B9A4BED88B26050D6B09 /* libPods-OSU_Printer-CocoaLumberjack.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OSU_Printer-CocoaLumberjack.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA704E28147342F4382B7D39 /* DDLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDLog.m; path = Classes/DDLog.m; sourceTree = "<group>"; };
+		AFC1C68EAD4E1E141F638DD1 /* DDASLLogCapture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDASLLogCapture.h; path = Classes/DDASLLogCapture.h; sourceTree = "<group>"; };
+		B2265A789B52BF2AFAFCD323 /* libPods-OSU_Printer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OSU_Printer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B50E4C7665C4500F2A61797C /* libPods-CocoaLumberjack.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CocoaLumberjack.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5BE8F3C43967EDFAD1312F1 /* socket_helper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = socket_helper.m; path = NMSSH/Config/socket_helper.m; sourceTree = "<group>"; };
+		B6F6573F893A335FFCDF133E /* Pods-OSU_Printer-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OSU_Printer-environment.h"; sourceTree = "<group>"; };
+		B728063F3DA21183CDA473FC /* NMSSHChannel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NMSSHChannel.m; path = NMSSH/NMSSHChannel.m; sourceTree = "<group>"; };
+		B7C2578995AD45759529F4B0 /* Pods-OSU_Printer-NMSSH-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSU_Printer-NMSSH-Private.xcconfig"; path = "../Pods-OSU_Printer-NMSSH/Pods-OSU_Printer-NMSSH-Private.xcconfig"; sourceTree = "<group>"; };
+		BADDB1BFC1126D0340F63919 /* DDLog+LOGV.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DDLog+LOGV.h"; path = "Classes/DDLog+LOGV.h"; sourceTree = "<group>"; };
+		BF6B54CA44ADC3A27C6F2022 /* DDLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLog.h; path = Classes/DDLog.h; sourceTree = "<group>"; };
+		C0EB0617570E237019BC6BB6 /* Pods-NMSSH-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NMSSH-dummy.m"; sourceTree = "<group>"; };
+		C70EBD75C78E6D35772F4009 /* Pods-OSU_PrinterTests-NMSSH.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSU_PrinterTests-NMSSH.xcconfig"; path = "../Pods-OSU_PrinterTests-NMSSH/Pods-OSU_PrinterTests-NMSSH.xcconfig"; sourceTree = "<group>"; };
+		CA2B7F02EE866578C2398967 /* NMSSHSession.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NMSSHSession.m; path = NMSSH/NMSSHSession.m; sourceTree = "<group>"; };
+		CEEF12F9C33AF5D77B2F59B1 /* Pods-CocoaLumberjack-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CocoaLumberjack-prefix.pch"; sourceTree = "<group>"; };
+		D0A7DAA779526A480C1D7093 /* Pods-OSU_Printer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OSU_Printer.release.xcconfig"; sourceTree = "<group>"; };
+		D4322CAAEE705B25E1ECA1A2 /* Pods-OSU_Printer-NMSSH.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSU_Printer-NMSSH.xcconfig"; path = "../Pods-OSU_Printer-NMSSH/Pods-OSU_Printer-NMSSH.xcconfig"; sourceTree = "<group>"; };
+		DCCD534D37BE888EB6F0364B /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		E077656D0FD4F8738A60C7C1 /* DDTTYLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDTTYLogger.h; path = Classes/DDTTYLogger.h; sourceTree = "<group>"; };
+		E0DE63B4D36BC339CDE4354F /* Pods-OSU_PrinterTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OSU_PrinterTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E21010398E3F1BFDB2ECCCEA /* Pods-OSU_PrinterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OSU_PrinterTests.release.xcconfig"; sourceTree = "<group>"; };
+		E42DD5988D613358F95808A1 /* NMSSHChannel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NMSSHChannel.h; path = NMSSH/NMSSHChannel.h; sourceTree = "<group>"; };
+		E57C0081AF899237F6C0D824 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		E7B98329C53BD2D128714C24 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E8ABBC73207D3688BC7CAEFD /* DDMultiFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDMultiFormatter.h; path = Classes/Extensions/DDMultiFormatter.h; sourceTree = "<group>"; };
+		E959628D4589BD6B69B46F42 /* Pods-OSU_Printer-NMSSH-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-OSU_Printer-NMSSH-prefix.pch"; path = "../Pods-OSU_Printer-NMSSH/Pods-OSU_Printer-NMSSH-prefix.pch"; sourceTree = "<group>"; };
+		F1A4FA009B8B8693DD414BA3 /* NMSSH.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NMSSH.h; path = NMSSH/NMSSH.h; sourceTree = "<group>"; };
+		F6F08077E3F24AE3E69C0AE4 /* DDContextFilterLogFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDContextFilterLogFormatter.h; path = Classes/Extensions/DDContextFilterLogFormatter.h; sourceTree = "<group>"; };
+		FEB1D3446E8CCF856E1A6A69 /* DDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDAbstractDatabaseLogger.m; path = Classes/DDAbstractDatabaseLogger.m; sourceTree = "<group>"; };
+		FFBDBE9F40D0CB8D887BC48E /* Pods-OSU_Printer-CocoaLumberjack.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSU_Printer-CocoaLumberjack.xcconfig"; path = "../Pods-OSU_Printer-CocoaLumberjack/Pods-OSU_Printer-CocoaLumberjack.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18D155D4E954DE81F1904111 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A5A7FAB29611F515A4C01C7 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2251F390DDFCB9A367193DA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C19E5A3BA547483D8B509231 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E48F797425F57B2E8CDB921 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BBF12002205453089F44D3A /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A175F730E8948F298747FE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7D2C763B2D1DD4A04E2AFAE /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5902B7C53CDC4A5114F39BB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DE69CE2A973104C981178E1 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D96F0450125828F657B6B49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				219D94591724E47E0F03FD53 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEB95773D4AB7CB539F9A75D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2BD9F029B7B35E15F0C3082 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC2AAEE86F11FF139EAAB4B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D52ED015C6A4CD0B4D58CC07 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F505149954A791E97444E919 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21C03C9B92496C7E266A120B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1821A8F6D24C62251771318E /* Default */ = {
+			isa = PBXGroup;
+			children = (
+				3317CD3328FA2E761C5C2376 /* CocoaLumberjack.h */,
+			);
+			name = Default;
+			sourceTree = "<group>";
+		};
+		38041FEB07FC451326BE5301 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				73099FC11395C96A44CC1A4E /* libssh2.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F6FDC195B4F5859FD3047D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E0C3DA4292ED6A5ACCCD566 /* libPods.a */,
+				B50E4C7665C4500F2A61797C /* libPods-CocoaLumberjack.a */,
+				9888994105D24AA6F085E835 /* libPods-NMSSH.a */,
+				B2265A789B52BF2AFAFCD323 /* libPods-OSU_Printer.a */,
+				A643B9A4BED88B26050D6B09 /* libPods-OSU_Printer-CocoaLumberjack.a */,
+				79C65A616B837EAEAA33EF90 /* libPods-OSU_Printer-NMSSH.a */,
+				8EE467603E0F2C7AA69ECAE2 /* libPods-OSU_PrinterTests.a */,
+				21A222EC5D94000C629474A3 /* libPods-OSU_PrinterTests-CocoaLumberjack.a */,
+				4EBFF0659F41166B9449DBD7 /* libPods-OSU_PrinterTests-NMSSH.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A7EAE2D18841AC43D135A32 /* CocoaLumberjack */ = {
+			isa = PBXGroup;
+			children = (
+				C38F0808F8A8F1B0598037D6 /* Core */,
+				1821A8F6D24C62251771318E /* Default */,
+				7F19C4F741BB62FE60F6123F /* Extensions */,
+				9467EB7FDB5F91657E909EF6 /* Support Files */,
+			);
+			path = CocoaLumberjack;
+			sourceTree = "<group>";
+		};
+		4C59B9116C6FB42DBC1FD2D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E7B98329C53BD2D128714C24 /* Pods-acknowledgements.markdown */,
+				0A5C174FA4A375628BC902A5 /* Pods-acknowledgements.plist */,
+				DCCD534D37BE888EB6F0364B /* Pods-dummy.m */,
+				012CCA7E00D23C961817F3F0 /* Pods-environment.h */,
+				E57C0081AF899237F6C0D824 /* Pods-resources.sh */,
+				26903CFFE9ACBBC72C9AC134 /* Pods.debug.xcconfig */,
+				35FEE88622C092C500296E74 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		52A088B47D47B06FED761F0F = {
+			isa = PBXGroup;
+			children = (
+				1E93CF07D9230E808C377685 /* Podfile */,
+				8615FAFA0C1BBFF684DF437C /* Frameworks */,
+				C366401D482BAE05009CD40B /* Pods */,
+				3F6FDC195B4F5859FD3047D8 /* Products */,
+				6961524BC7C15513CE3BA6E2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		6961524BC7C15513CE3BA6E2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C59B9116C6FB42DBC1FD2D6 /* Pods */,
+				D996BB7ADAC564DC81C379B0 /* Pods-OSU_Printer */,
+				A42BEC63B8794D983A34AFFF /* Pods-OSU_PrinterTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7F19C4F741BB62FE60F6123F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F6F08077E3F24AE3E69C0AE4 /* DDContextFilterLogFormatter.h */,
+				234DF6A63D41192ACFB0D23E /* DDContextFilterLogFormatter.m */,
+				2A5FD1F5E4EC76F1C4BCCE98 /* DDDispatchQueueLogFormatter.h */,
+				3BA1DBBA78E1A20BC84C9BDF /* DDDispatchQueueLogFormatter.m */,
+				E8ABBC73207D3688BC7CAEFD /* DDMultiFormatter.h */,
+				88F763D69708746AC45B4D80 /* DDMultiFormatter.m */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		84161DC7EDEA0DB2494E9018 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A140D936420BD77ED9828188 /* Pods-NMSSH.xcconfig */,
+				3578DD38D07897281A3AF29D /* Pods-NMSSH-Private.xcconfig */,
+				C0EB0617570E237019BC6BB6 /* Pods-NMSSH-dummy.m */,
+				32D88852218E1CAA6D60AA68 /* Pods-NMSSH-prefix.pch */,
+				D4322CAAEE705B25E1ECA1A2 /* Pods-OSU_Printer-NMSSH.xcconfig */,
+				B7C2578995AD45759529F4B0 /* Pods-OSU_Printer-NMSSH-Private.xcconfig */,
+				6A7AEF4E785E48CFB46ABFC9 /* Pods-OSU_Printer-NMSSH-dummy.m */,
+				E959628D4589BD6B69B46F42 /* Pods-OSU_Printer-NMSSH-prefix.pch */,
+				C70EBD75C78E6D35772F4009 /* Pods-OSU_PrinterTests-NMSSH.xcconfig */,
+				06ECEC89BAB5C90A5854E0F2 /* Pods-OSU_PrinterTests-NMSSH-Private.xcconfig */,
+				4298C8EE20D07CCA8593D303 /* Pods-OSU_PrinterTests-NMSSH-dummy.m */,
+				76E42215BF1C65054DC60762 /* Pods-OSU_PrinterTests-NMSSH-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-NMSSH";
+			sourceTree = "<group>";
+		};
+		8615FAFA0C1BBFF684DF437C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5F75789828783E0AA747AB4 /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9467EB7FDB5F91657E909EF6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				63F5A7F0B7BF4040E60311B2 /* Pods-CocoaLumberjack.xcconfig */,
+				4397BC15FA1069DFA8DF4582 /* Pods-CocoaLumberjack-Private.xcconfig */,
+				77FE034DAD9A2817237C5E9E /* Pods-CocoaLumberjack-dummy.m */,
+				CEEF12F9C33AF5D77B2F59B1 /* Pods-CocoaLumberjack-prefix.pch */,
+				FFBDBE9F40D0CB8D887BC48E /* Pods-OSU_Printer-CocoaLumberjack.xcconfig */,
+				3AA5BA34F6AA42E482F2B854 /* Pods-OSU_Printer-CocoaLumberjack-Private.xcconfig */,
+				769B40A4ED0272C7084D7035 /* Pods-OSU_Printer-CocoaLumberjack-dummy.m */,
+				475C5D9440EA19B8292FFD5B /* Pods-OSU_Printer-CocoaLumberjack-prefix.pch */,
+				1B8E059C9323E91B4F8E9EFC /* Pods-OSU_PrinterTests-CocoaLumberjack.xcconfig */,
+				478C65F87E64E3CAB2550C4A /* Pods-OSU_PrinterTests-CocoaLumberjack-Private.xcconfig */,
+				32F4B794EF1AC61EC6EDB882 /* Pods-OSU_PrinterTests-CocoaLumberjack-dummy.m */,
+				56C216778B13386A8AA7B1CC /* Pods-OSU_PrinterTests-CocoaLumberjack-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-CocoaLumberjack";
+			sourceTree = "<group>";
+		};
+		A42BEC63B8794D983A34AFFF /* Pods-OSU_PrinterTests */ = {
+			isa = PBXGroup;
+			children = (
+				647D9A4B1803E0B377F6D952 /* Pods-OSU_PrinterTests-acknowledgements.markdown */,
+				E0DE63B4D36BC339CDE4354F /* Pods-OSU_PrinterTests-acknowledgements.plist */,
+				920BAAAB88095656A0569CDE /* Pods-OSU_PrinterTests-dummy.m */,
+				86E31909558BE20D9770E4E7 /* Pods-OSU_PrinterTests-environment.h */,
+				3F6298F3EE6025AB07DDF659 /* Pods-OSU_PrinterTests-resources.sh */,
+				10D2C97E64D99E26862DA8F6 /* Pods-OSU_PrinterTests.debug.xcconfig */,
+				E21010398E3F1BFDB2ECCCEA /* Pods-OSU_PrinterTests.release.xcconfig */,
+			);
+			name = "Pods-OSU_PrinterTests";
+			path = "Target Support Files/Pods-OSU_PrinterTests";
+			sourceTree = "<group>";
+		};
+		C366401D482BAE05009CD40B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4A7EAE2D18841AC43D135A32 /* CocoaLumberjack */,
+				D1735245BB789231C85961FE /* NMSSH */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C38F0808F8A8F1B0598037D6 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				AFC1C68EAD4E1E141F638DD1 /* DDASLLogCapture.h */,
+				5AA0EE22F3DC9BCFFD544B42 /* DDASLLogCapture.m */,
+				8535B739C837C15A741AA126 /* DDASLLogger.h */,
+				431CEAD545854CD1EA115AFE /* DDASLLogger.m */,
+				7540798D65AE5F17AFFA6D2E /* DDAbstractDatabaseLogger.h */,
+				FEB1D3446E8CCF856E1A6A69 /* DDAbstractDatabaseLogger.m */,
+				34809F5B4E8205158E74ABDD /* DDAssertMacros.h */,
+				477C34171870E037CA3C6E62 /* DDFileLogger.h */,
+				21B098F8D2A597C39C7D9594 /* DDFileLogger.m */,
+				8E535CA4159737E744AC25F6 /* DDLegacyMacros.h */,
+				BF6B54CA44ADC3A27C6F2022 /* DDLog.h */,
+				AA704E28147342F4382B7D39 /* DDLog.m */,
+				BADDB1BFC1126D0340F63919 /* DDLog+LOGV.h */,
+				23E27A995D04968FDCA368DF /* DDLogMacros.h */,
+				E077656D0FD4F8738A60C7C1 /* DDTTYLogger.h */,
+				30886A10D4606FEF84462D27 /* DDTTYLogger.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		D1735245BB789231C85961FE /* NMSSH */ = {
+			isa = PBXGroup;
+			children = (
+				60B1D6EDF16E65419C10C3C7 /* NMSFTP.h */,
+				21183F3FD127FAD6A0C3606C /* NMSFTP.m */,
+				65FE7CAAA61837DAEC86683B /* NMSFTPFile.h */,
+				832C6401D39867B8E10E3431 /* NMSFTPFile.m */,
+				F1A4FA009B8B8693DD414BA3 /* NMSSH.h */,
+				16A8B306FD019F996EF467A9 /* NMSSH+Protected.h */,
+				E42DD5988D613358F95808A1 /* NMSSHChannel.h */,
+				B728063F3DA21183CDA473FC /* NMSSHChannel.m */,
+				A53D923E8909D5454FE10921 /* NMSSHChannelDelegate.h */,
+				9411FD01A3EE24263B1637EB /* NMSSHConfig.h */,
+				8BFC61BF78CDE44E5A8ACF4F /* NMSSHConfig.m */,
+				56C9651117606CBD68467924 /* NMSSHHostConfig.h */,
+				19E7423E7ABA9C9BF2A4CBC4 /* NMSSHHostConfig.m */,
+				7722235BFDA96049987A5474 /* NMSSHLogger.h */,
+				1853E8AC149FDFC5D47306C7 /* NMSSHLogger.m */,
+				6757C924DDD1A72D10645D6C /* NMSSHSession.h */,
+				CA2B7F02EE866578C2398967 /* NMSSHSession.m */,
+				5AD2FD1384B332613E6FC407 /* NMSSHSessionDelegate.h */,
+				26A0E101D0A94D752797496A /* libssh2.h */,
+				9F3AD597BE383CDE389995AE /* libssh2_publickey.h */,
+				95F355833E3610E17A1A509A /* libssh2_sftp.h */,
+				1CB3602DFE34FA9DB0860E75 /* socket_helper.h */,
+				B5BE8F3C43967EDFAD1312F1 /* socket_helper.m */,
+				38041FEB07FC451326BE5301 /* Frameworks */,
+				84161DC7EDEA0DB2494E9018 /* Support Files */,
+			);
+			path = NMSSH;
+			sourceTree = "<group>";
+		};
+		D5F75789828783E0AA747AB4 /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				4FAFB8464B4EE7A95B3DCBC1 /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		D996BB7ADAC564DC81C379B0 /* Pods-OSU_Printer */ = {
+			isa = PBXGroup;
+			children = (
+				1D564C22E051A56FC2EC9BD2 /* Pods-OSU_Printer-acknowledgements.markdown */,
+				32E6A6407F6FAE968A1E4F68 /* Pods-OSU_Printer-acknowledgements.plist */,
+				593A839B5E76AB2A0A570839 /* Pods-OSU_Printer-dummy.m */,
+				B6F6573F893A335FFCDF133E /* Pods-OSU_Printer-environment.h */,
+				9D6A7EC025F392C09905F504 /* Pods-OSU_Printer-resources.sh */,
+				2A3198C8832A7D994A594A5A /* Pods-OSU_Printer.debug.xcconfig */,
+				D0A7DAA779526A480C1D7093 /* Pods-OSU_Printer.release.xcconfig */,
+			);
+			name = "Pods-OSU_Printer";
+			path = "Target Support Files/Pods-OSU_Printer";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		203DA07719C707E16C1EF9D3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ECC6E8F179E70ECC5328210 /* CocoaLumberjack.h in Headers */,
+				59B549FB0E8229091F0AD775 /* DDASLLogCapture.h in Headers */,
+				FF123D84AFECCE2CB8E385B8 /* DDASLLogger.h in Headers */,
+				EBB8F8503F6C7EDC4F318C22 /* DDAbstractDatabaseLogger.h in Headers */,
+				4F92F57EC101F781E7A57DEF /* DDAssertMacros.h in Headers */,
+				2DD28A5874E3504F06E90711 /* DDContextFilterLogFormatter.h in Headers */,
+				3D427998FF5068ABF91E6395 /* DDDispatchQueueLogFormatter.h in Headers */,
+				61AEFD630204DF7CE8E762A4 /* DDFileLogger.h in Headers */,
+				C91EDECFEBCB9CD12B2104FA /* DDLegacyMacros.h in Headers */,
+				9277C162E76674835F78AE1F /* DDLog+LOGV.h in Headers */,
+				9F38B620FF2FBD58E147D0E0 /* DDLog.h in Headers */,
+				06D2E6C7210C28D889C48083 /* DDLogMacros.h in Headers */,
+				1B29D83713DF6608B1D209D4 /* DDMultiFormatter.h in Headers */,
+				BCCA7855563173FFAB821CD6 /* DDTTYLogger.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		313A741F7A5FAF7E8B62AD40 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F336943059B276DA73A4CD4 /* NMSFTP.h in Headers */,
+				3ECAF06C0D08D4C62AB09138 /* NMSFTPFile.h in Headers */,
+				C30DCA5627A2D32AE042443A /* NMSSH+Protected.h in Headers */,
+				8B867C314410EBAAAA5E6DF8 /* NMSSH.h in Headers */,
+				931994AB73620BB590396D73 /* NMSSHChannel.h in Headers */,
+				66BC3CD799085753D8E72577 /* NMSSHChannelDelegate.h in Headers */,
+				1E19162BA09B6143CE35FCA3 /* NMSSHConfig.h in Headers */,
+				265D68A3F6E8FB997C0A1F8D /* NMSSHHostConfig.h in Headers */,
+				5DC41927B7BDB894C9E7FCAC /* NMSSHLogger.h in Headers */,
+				478C925BD9FC34B1F5AB9AF3 /* NMSSHSession.h in Headers */,
+				7C952721A0284470E0062152 /* NMSSHSessionDelegate.h in Headers */,
+				38F5852BE89F3A69F6048DDD /* libssh2.h in Headers */,
+				C1B515C69D7E5588FA4D2F85 /* libssh2_publickey.h in Headers */,
+				086FFBF73E3E44DFE7C9BBE9 /* libssh2_sftp.h in Headers */,
+				0DFFC6ED59683424F3D77F2A /* socket_helper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35797211372F3BF997D81D22 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				906A9D170E8558F82D41CD54 /* CocoaLumberjack.h in Headers */,
+				BBFCD1AF5DD77D17021EF29C /* DDASLLogCapture.h in Headers */,
+				52915B7CC6E1EB077C503020 /* DDASLLogger.h in Headers */,
+				B29BBCDF9F20FFC493BD9E15 /* DDAbstractDatabaseLogger.h in Headers */,
+				FF468C7044D543AEC5BFFA34 /* DDAssertMacros.h in Headers */,
+				31BDB5D2A69D9FEA32C4D620 /* DDContextFilterLogFormatter.h in Headers */,
+				248571578D97C2567CBDC2B6 /* DDDispatchQueueLogFormatter.h in Headers */,
+				0201329159B32D6E779969F0 /* DDFileLogger.h in Headers */,
+				B855B56C0455F6C1680AA64C /* DDLegacyMacros.h in Headers */,
+				3D35E92D20A3A11ED46B7B2F /* DDLog+LOGV.h in Headers */,
+				79BB02CA1E2CCC3BEB470183 /* DDLog.h in Headers */,
+				B56F638E31754B327B40F6D2 /* DDLogMacros.h in Headers */,
+				87C8120BDAA7462BEFBDB469 /* DDMultiFormatter.h in Headers */,
+				E04776851C713C91C433729C /* DDTTYLogger.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6893234570CB49D4DA1066A9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C4DAA2E1DF44A61CE57216F /* NMSFTP.h in Headers */,
+				15D2A480C2CAE842220602C5 /* NMSFTPFile.h in Headers */,
+				ECA1FC3B428734F5D87EE7C7 /* NMSSH+Protected.h in Headers */,
+				427C499BEE8DB2BA2885B167 /* NMSSH.h in Headers */,
+				C956DCB243A5AC32AF3C0CF8 /* NMSSHChannel.h in Headers */,
+				34B503E136ADCB71DE96DDDC /* NMSSHChannelDelegate.h in Headers */,
+				BF87CF44A0C7AA12348348ED /* NMSSHConfig.h in Headers */,
+				4CD5BB4BC209975B1D848489 /* NMSSHHostConfig.h in Headers */,
+				F8D479F5483D2085721FAA17 /* NMSSHLogger.h in Headers */,
+				E7F3DBCE98BF493090AF8748 /* NMSSHSession.h in Headers */,
+				A759F35F090701B10F6A7A23 /* NMSSHSessionDelegate.h in Headers */,
+				0710B9E982B6DBEEAF73919F /* libssh2.h in Headers */,
+				C884680A68D36B9B6DC64B6E /* libssh2_publickey.h in Headers */,
+				68EB8E8A7BD059D1A7D60050 /* libssh2_sftp.h in Headers */,
+				2916DC4ADB3A435402176B75 /* socket_helper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		713B287F39157A8BA954CEB0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81CFC09492D8FF30FD92CACB /* CocoaLumberjack.h in Headers */,
+				1B3359D75CB991114C7AC5E6 /* DDASLLogCapture.h in Headers */,
+				8F0B77A7908BBD12463F0DF2 /* DDASLLogger.h in Headers */,
+				88532162F62AD81C9F1E2C9D /* DDAbstractDatabaseLogger.h in Headers */,
+				F616A086D27A44CFF61B5306 /* DDAssertMacros.h in Headers */,
+				04BFF5936E288754DBD5320E /* DDContextFilterLogFormatter.h in Headers */,
+				C770061CB56FD837848ED98B /* DDDispatchQueueLogFormatter.h in Headers */,
+				F18A3DBF24DDF8AB7EF75712 /* DDFileLogger.h in Headers */,
+				EFD5BFDE048E0ECC1D8C2B5E /* DDLegacyMacros.h in Headers */,
+				3768427C2C75A294D2F00079 /* DDLog+LOGV.h in Headers */,
+				E073703A581F5372DC7D3A7E /* DDLog.h in Headers */,
+				4EE5F021E1399FF934E5F8E0 /* DDLogMacros.h in Headers */,
+				53680FA2514AD81A945A67EC /* DDMultiFormatter.h in Headers */,
+				2A86F5DF935BC7154BE069ED /* DDTTYLogger.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B07446ADF7FBD3F43651C921 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B0FB3B6CB5619840142D7C7 /* NMSFTP.h in Headers */,
+				72A8AAC39F11B923C4FD5897 /* NMSFTPFile.h in Headers */,
+				FD6CD4D11D63BAA6A9D381D8 /* NMSSH+Protected.h in Headers */,
+				DF4A65F07792283CE574012A /* NMSSH.h in Headers */,
+				E6CB97434DEBE55DFC6EB81C /* NMSSHChannel.h in Headers */,
+				63C94EEB3C86E6D445A720C2 /* NMSSHChannelDelegate.h in Headers */,
+				3468AA0DCA73217E95D630F1 /* NMSSHConfig.h in Headers */,
+				C134CA649B01B4C50C16AE39 /* NMSSHHostConfig.h in Headers */,
+				256BD537E041ACF326C55B2F /* NMSSHLogger.h in Headers */,
+				B9D4BD4EDE6FD11A228A1892 /* NMSSHSession.h in Headers */,
+				45875EB1449BA6BAD7EF86CD /* NMSSHSessionDelegate.h in Headers */,
+				FFAF1938FC8EB68DA3DF89D8 /* libssh2.h in Headers */,
+				1966CB5CCD601658BD10E9F0 /* libssh2_publickey.h in Headers */,
+				D583928E70717AEC1F96D627 /* libssh2_sftp.h in Headers */,
+				454541E4F044B1BF56F8BA5E /* socket_helper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0FD0CB284821A29B66DCD741 /* Pods-OSU_PrinterTests-NMSSH */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8EDF71B139A53B83002AF82 /* Build configuration list for PBXNativeTarget "Pods-OSU_PrinterTests-NMSSH" */;
+			buildPhases = (
+				7D85C59AD8DF0E007AD57B8D /* Sources */,
+				18D155D4E954DE81F1904111 /* Frameworks */,
+				313A741F7A5FAF7E8B62AD40 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-OSU_PrinterTests-NMSSH";
+			productName = "Pods-OSU_PrinterTests-NMSSH";
+			productReference = 4EBFF0659F41166B9449DBD7 /* libPods-OSU_PrinterTests-NMSSH.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		1E507C96442BD9CEBA633D69 /* Pods-NMSSH */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76470DA63028C8504494972D /* Build configuration list for PBXNativeTarget "Pods-NMSSH" */;
+			buildPhases = (
+				1863A68257C1131FECE0BD9C /* Sources */,
+				F505149954A791E97444E919 /* Frameworks */,
+				6893234570CB49D4DA1066A9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-NMSSH";
+			productName = "Pods-NMSSH";
+			productReference = 9888994105D24AA6F085E835 /* libPods-NMSSH.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2747230D30E430A251924098 /* Pods-OSU_PrinterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9051AA6E9C7033BD4210F07 /* Build configuration list for PBXNativeTarget "Pods-OSU_PrinterTests" */;
+			buildPhases = (
+				05D38C4BD3011293F0C364B0 /* Sources */,
+				7D96F0450125828F657B6B49 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B50AF555F870E1EC0FC8AF6 /* PBXTargetDependency */,
+				6C6763099D187EEF3577AA05 /* PBXTargetDependency */,
+			);
+			name = "Pods-OSU_PrinterTests";
+			productName = "Pods-OSU_PrinterTests";
+			productReference = 8EE467603E0F2C7AA69ECAE2 /* libPods-OSU_PrinterTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		402EC42921AE31089B100B1B /* Pods-OSU_Printer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 365BD59DC288CABD7211F110 /* Build configuration list for PBXNativeTarget "Pods-OSU_Printer" */;
+			buildPhases = (
+				1ED3E1CB61386D1F98134D6D /* Sources */,
+				BEB95773D4AB7CB539F9A75D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93B21AD97F53F718CDE62364 /* PBXTargetDependency */,
+				0DDEA0BE70A6FE8D95409080 /* PBXTargetDependency */,
+			);
+			name = "Pods-OSU_Printer";
+			productName = "Pods-OSU_Printer";
+			productReference = B2265A789B52BF2AFAFCD323 /* libPods-OSU_Printer.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		992BC012DDDCC6B4E8B875A0 /* Pods-OSU_Printer-CocoaLumberjack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE22EC11CAA115479F5B45CB /* Build configuration list for PBXNativeTarget "Pods-OSU_Printer-CocoaLumberjack" */;
+			buildPhases = (
+				A0CC92CC9E6C9C1CBF97E4C3 /* Sources */,
+				2251F390DDFCB9A367193DA7 /* Frameworks */,
+				713B287F39157A8BA954CEB0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-OSU_Printer-CocoaLumberjack";
+			productName = "Pods-OSU_Printer-CocoaLumberjack";
+			productReference = A643B9A4BED88B26050D6B09 /* libPods-OSU_Printer-CocoaLumberjack.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A78D1FDF0DFDB5324FA1F874 /* Pods-OSU_PrinterTests-CocoaLumberjack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B89E134FE69ED37E5E5EC0F /* Build configuration list for PBXNativeTarget "Pods-OSU_PrinterTests-CocoaLumberjack" */;
+			buildPhases = (
+				028722870EDC3A1A71F8CB10 /* Sources */,
+				5902B7C53CDC4A5114F39BB4 /* Frameworks */,
+				203DA07719C707E16C1EF9D3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-OSU_PrinterTests-CocoaLumberjack";
+			productName = "Pods-OSU_PrinterTests-CocoaLumberjack";
+			productReference = 21A222EC5D94000C629474A3 /* libPods-OSU_PrinterTests-CocoaLumberjack.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BF188D0A7C6340C8264A2903 /* Pods-CocoaLumberjack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E299CCAD9A071E553CDF21D9 /* Build configuration list for PBXNativeTarget "Pods-CocoaLumberjack" */;
+			buildPhases = (
+				1EC377A0EE7BD5768F24193C /* Sources */,
+				DC2AAEE86F11FF139EAAB4B4 /* Frameworks */,
+				35797211372F3BF997D81D22 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CocoaLumberjack";
+			productName = "Pods-CocoaLumberjack";
+			productReference = B50E4C7665C4500F2A61797C /* libPods-CocoaLumberjack.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D52FD898268EECCB9498F6C4 /* Pods-OSU_Printer-NMSSH */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 215220755B567F204EEB6AB5 /* Build configuration list for PBXNativeTarget "Pods-OSU_Printer-NMSSH" */;
+			buildPhases = (
+				3E438263971FA8ABBE206C95 /* Sources */,
+				2E48F797425F57B2E8CDB921 /* Frameworks */,
+				B07446ADF7FBD3F43651C921 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-OSU_Printer-NMSSH";
+			productName = "Pods-OSU_Printer-NMSSH";
+			productReference = 79C65A616B837EAEAA33EF90 /* libPods-OSU_Printer-NMSSH.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FAF9475C811CC41AECAC29F2 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A6FB816B2D8E5DAD42637D3 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				2E98AB757484C7744109DC0F /* Sources */,
+				4A175F730E8948F298747FE0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41F63505063774FC6B166846 /* PBXTargetDependency */,
+				7C51C61F144699569B545C5E /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 5E0C3DA4292ED6A5ACCCD566 /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		560CFCE7313B6830F4AB618C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = C2BA481B8A3547AA56E725EC /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 52A088B47D47B06FED761F0F;
+			productRefGroup = 3F6FDC195B4F5859FD3047D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAF9475C811CC41AECAC29F2 /* Pods */,
+				BF188D0A7C6340C8264A2903 /* Pods-CocoaLumberjack */,
+				1E507C96442BD9CEBA633D69 /* Pods-NMSSH */,
+				402EC42921AE31089B100B1B /* Pods-OSU_Printer */,
+				992BC012DDDCC6B4E8B875A0 /* Pods-OSU_Printer-CocoaLumberjack */,
+				D52FD898268EECCB9498F6C4 /* Pods-OSU_Printer-NMSSH */,
+				2747230D30E430A251924098 /* Pods-OSU_PrinterTests */,
+				A78D1FDF0DFDB5324FA1F874 /* Pods-OSU_PrinterTests-CocoaLumberjack */,
+				0FD0CB284821A29B66DCD741 /* Pods-OSU_PrinterTests-NMSSH */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		028722870EDC3A1A71F8CB10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4F3B84392E5D8217A0E44FC /* DDASLLogCapture.m in Sources */,
+				2D5EE1D6F34AEF5EC757E27A /* DDASLLogger.m in Sources */,
+				8FF28A050B31EC0914448047 /* DDAbstractDatabaseLogger.m in Sources */,
+				A1AA7E03EAACF831919A452D /* DDContextFilterLogFormatter.m in Sources */,
+				AF1F1AE6BB503BECE2A04223 /* DDDispatchQueueLogFormatter.m in Sources */,
+				B6E4D2D38F02D63CAC47F7D3 /* DDFileLogger.m in Sources */,
+				32430948BB76FB561A97DC28 /* DDLog.m in Sources */,
+				59CB31D0C3C2CD717D97BEAE /* DDMultiFormatter.m in Sources */,
+				F5986263FC1F86A9D0EBE9B3 /* DDTTYLogger.m in Sources */,
+				72179C0C1F9605BB46BB79A3 /* Pods-OSU_PrinterTests-CocoaLumberjack-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05D38C4BD3011293F0C364B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F545001739119DB18D81A54 /* Pods-OSU_PrinterTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1863A68257C1131FECE0BD9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2659D644C2297D8AC922AC1 /* NMSFTP.m in Sources */,
+				26804578FE100E108F152290 /* NMSFTPFile.m in Sources */,
+				D4DD1A75ABC94B1F82FFDCF1 /* NMSSHChannel.m in Sources */,
+				B042F823C2DC7DA9ABC55AF0 /* NMSSHConfig.m in Sources */,
+				80EBB28C82D41E6FECF307B4 /* NMSSHHostConfig.m in Sources */,
+				2BE0CECF15FE0E2E505F03C1 /* NMSSHLogger.m in Sources */,
+				E1CB0BB7CC8683E539B4A3A5 /* NMSSHSession.m in Sources */,
+				FEE612E569A5E8FB18F97501 /* Pods-NMSSH-dummy.m in Sources */,
+				29AB4B905FD0BB7F5CDA9F87 /* socket_helper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EC377A0EE7BD5768F24193C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F07BB377F85A5BCF7912A823 /* DDASLLogCapture.m in Sources */,
+				ACAC0C31E471ABF7F3A3BF29 /* DDASLLogger.m in Sources */,
+				BA5B73BAFF27559E6B7A3BDB /* DDAbstractDatabaseLogger.m in Sources */,
+				3E69FF82D3E9785E41ACC3B4 /* DDContextFilterLogFormatter.m in Sources */,
+				F5CC8B4633395B7BDA431922 /* DDDispatchQueueLogFormatter.m in Sources */,
+				EB1605063A67D3D2C145CDB8 /* DDFileLogger.m in Sources */,
+				20CB0D11199BF45AE10EF4F3 /* DDLog.m in Sources */,
+				710960A28D49C76230352180 /* DDMultiFormatter.m in Sources */,
+				AC7EDF9AD350668217EBF7E7 /* DDTTYLogger.m in Sources */,
+				3416C31D8264919255EDF599 /* Pods-CocoaLumberjack-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ED3E1CB61386D1F98134D6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD1F0EBC7A21FE76FA16986F /* Pods-OSU_Printer-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E98AB757484C7744109DC0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4678B55E1D0333D7CBD180B4 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E438263971FA8ABBE206C95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F00085310CB593C212FB6153 /* NMSFTP.m in Sources */,
+				16985621E924088FE5E3CB66 /* NMSFTPFile.m in Sources */,
+				C8BF569563493A3AF491A1E2 /* NMSSHChannel.m in Sources */,
+				74CA29EF43DD80DC52E83F0D /* NMSSHConfig.m in Sources */,
+				3FD48717A91CBC4E39732143 /* NMSSHHostConfig.m in Sources */,
+				E32D41E7490A3D7E13F7A8E8 /* NMSSHLogger.m in Sources */,
+				55800C35CB4BF12B36DDDC6C /* NMSSHSession.m in Sources */,
+				CDECF023E3809289A5DD6307 /* Pods-OSU_Printer-NMSSH-dummy.m in Sources */,
+				03CC8D729F600789BE958D38 /* socket_helper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D85C59AD8DF0E007AD57B8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A3D3B1966F2AE2905C02C70 /* NMSFTP.m in Sources */,
+				0B6B8F572456A567A9178D18 /* NMSFTPFile.m in Sources */,
+				6E700CCD3A6E1B795A16B2F3 /* NMSSHChannel.m in Sources */,
+				0A053A776ED0DEFC97FF77EB /* NMSSHConfig.m in Sources */,
+				867B4EF0A58C1F9585FC84EE /* NMSSHHostConfig.m in Sources */,
+				A26C15CEAF7AAA45C312CC95 /* NMSSHLogger.m in Sources */,
+				5394A59E0F1BB8BFDEABABC5 /* NMSSHSession.m in Sources */,
+				5C7040158456901D46630883 /* Pods-OSU_PrinterTests-NMSSH-dummy.m in Sources */,
+				6032FE79206D5B10E739A677 /* socket_helper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0CC92CC9E6C9C1CBF97E4C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF379B5E004F73818C9306B2 /* DDASLLogCapture.m in Sources */,
+				53EF237825FB43C4FD75B185 /* DDASLLogger.m in Sources */,
+				416FFC171561208A25D6E06B /* DDAbstractDatabaseLogger.m in Sources */,
+				E9618BE2972580368B9E085A /* DDContextFilterLogFormatter.m in Sources */,
+				C255A5DA217FA48B96D0892E /* DDDispatchQueueLogFormatter.m in Sources */,
+				8B5E4870903D423A0D1C2D59 /* DDFileLogger.m in Sources */,
+				E35078E2C0F66AC7039F7570 /* DDLog.m in Sources */,
+				A37E9EC54508DEA3D9CC53A9 /* DDMultiFormatter.m in Sources */,
+				C67CB63EC79082198EE5AE5C /* DDTTYLogger.m in Sources */,
+				B642721AA01DD7176C437B9A /* Pods-OSU_Printer-CocoaLumberjack-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0DDEA0BE70A6FE8D95409080 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-OSU_Printer-NMSSH";
+			target = D52FD898268EECCB9498F6C4 /* Pods-OSU_Printer-NMSSH */;
+			targetProxy = 8111D461B6EE02751DFC5EB7 /* PBXContainerItemProxy */;
+		};
+		41F63505063774FC6B166846 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CocoaLumberjack";
+			target = BF188D0A7C6340C8264A2903 /* Pods-CocoaLumberjack */;
+			targetProxy = 07242F9E80BAE7DAC0B43765 /* PBXContainerItemProxy */;
+		};
+		6C6763099D187EEF3577AA05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-OSU_PrinterTests-NMSSH";
+			target = 0FD0CB284821A29B66DCD741 /* Pods-OSU_PrinterTests-NMSSH */;
+			targetProxy = 9F6E02FCA3863693F30055B6 /* PBXContainerItemProxy */;
+		};
+		7C51C61F144699569B545C5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-NMSSH";
+			target = 1E507C96442BD9CEBA633D69 /* Pods-NMSSH */;
+			targetProxy = 6426296EB13C18CCF9CBC1AD /* PBXContainerItemProxy */;
+		};
+		93B21AD97F53F718CDE62364 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-OSU_Printer-CocoaLumberjack";
+			target = 992BC012DDDCC6B4E8B875A0 /* Pods-OSU_Printer-CocoaLumberjack */;
+			targetProxy = D5CD7570503487590AEDA7F1 /* PBXContainerItemProxy */;
+		};
+		9B50AF555F870E1EC0FC8AF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-OSU_PrinterTests-CocoaLumberjack";
+			target = A78D1FDF0DFDB5324FA1F874 /* Pods-OSU_PrinterTests-CocoaLumberjack */;
+			targetProxy = 5B237D5186CE2C8702F1927B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		09C0A8A6364BD348B2E6FE72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7C2578995AD45759529F4B0 /* Pods-OSU_Printer-NMSSH-Private.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-OSU_Printer-NMSSH/Pods-OSU_Printer-NMSSH-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		266E0A18E536AFD2DDB6C25E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4397BC15FA1069DFA8DF4582 /* Pods-CocoaLumberjack-Private.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-CocoaLumberjack/Pods-CocoaLumberjack-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4BC4D8183B648967A5E12C36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52BF82AA7CB812EBB93F0301 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0A7DAA779526A480C1D7093 /* Pods-OSU_Printer.release.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		58344A966C2D281BB264D477 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A3198C8832A7D994A594A5A /* Pods-OSU_Printer.debug.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		68ACFBEAA1AC9BDF44BDEEDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E21010398E3F1BFDB2ECCCEA /* Pods-OSU_PrinterTests.release.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		70E5C0DAA1754BD6EDA4FEB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06ECEC89BAB5C90A5854E0F2 /* Pods-OSU_PrinterTests-NMSSH-Private.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-OSU_PrinterTests-NMSSH/Pods-OSU_PrinterTests-NMSSH-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7CD3DA02E9D07B1B14AA1196 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3578DD38D07897281A3AF29D /* Pods-NMSSH-Private.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-NMSSH/Pods-NMSSH-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8123AFC9A069C4F447F4972C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AA5BA34F6AA42E482F2B854 /* Pods-OSU_Printer-CocoaLumberjack-Private.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-OSU_Printer-CocoaLumberjack/Pods-OSU_Printer-CocoaLumberjack-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8C8E2F8C44559C51190D5EFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AA5BA34F6AA42E482F2B854 /* Pods-OSU_Printer-CocoaLumberjack-Private.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-OSU_Printer-CocoaLumberjack/Pods-OSU_Printer-CocoaLumberjack-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9A24C774EB38A27CE3894103 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35FEE88622C092C500296E74 /* Pods.release.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		9B25C1AF4EC2F67F9A89EE16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A6FA27937DC2EC5E82EC9009 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 478C65F87E64E3CAB2550C4A /* Pods-OSU_PrinterTests-CocoaLumberjack-Private.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-OSU_PrinterTests-CocoaLumberjack/Pods-OSU_PrinterTests-CocoaLumberjack-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B6D4305897502A9F6DB2A1CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 478C65F87E64E3CAB2550C4A /* Pods-OSU_PrinterTests-CocoaLumberjack-Private.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-OSU_PrinterTests-CocoaLumberjack/Pods-OSU_PrinterTests-CocoaLumberjack-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BDE4ADCED00FA408769C5A67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3578DD38D07897281A3AF29D /* Pods-NMSSH-Private.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-NMSSH/Pods-NMSSH-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C3553DC21206E1FE68B4E633 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10D2C97E64D99E26862DA8F6 /* Pods-OSU_PrinterTests.debug.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C85A4851C486B81FAE81EBCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7C2578995AD45759529F4B0 /* Pods-OSU_Printer-NMSSH-Private.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-OSU_Printer-NMSSH/Pods-OSU_Printer-NMSSH-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CF6DD4AB90A87619D2265A8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06ECEC89BAB5C90A5854E0F2 /* Pods-OSU_PrinterTests-NMSSH-Private.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-OSU_PrinterTests-NMSSH/Pods-OSU_PrinterTests-NMSSH-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DCD8F3E05C49062FD20A37CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4397BC15FA1069DFA8DF4582 /* Pods-CocoaLumberjack-Private.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-CocoaLumberjack/Pods-CocoaLumberjack-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EA5A033C460750495F69BC5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26903CFFE9ACBBC72C9AC134 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		215220755B567F204EEB6AB5 /* Build configuration list for PBXNativeTarget "Pods-OSU_Printer-NMSSH" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09C0A8A6364BD348B2E6FE72 /* Debug */,
+				C85A4851C486B81FAE81EBCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		365BD59DC288CABD7211F110 /* Build configuration list for PBXNativeTarget "Pods-OSU_Printer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58344A966C2D281BB264D477 /* Debug */,
+				52BF82AA7CB812EBB93F0301 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A6FB816B2D8E5DAD42637D3 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA5A033C460750495F69BC5D /* Debug */,
+				9A24C774EB38A27CE3894103 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B89E134FE69ED37E5E5EC0F /* Build configuration list for PBXNativeTarget "Pods-OSU_PrinterTests-CocoaLumberjack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6FA27937DC2EC5E82EC9009 /* Debug */,
+				B6D4305897502A9F6DB2A1CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76470DA63028C8504494972D /* Build configuration list for PBXNativeTarget "Pods-NMSSH" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDE4ADCED00FA408769C5A67 /* Debug */,
+				7CD3DA02E9D07B1B14AA1196 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9051AA6E9C7033BD4210F07 /* Build configuration list for PBXNativeTarget "Pods-OSU_PrinterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3553DC21206E1FE68B4E633 /* Debug */,
+				68ACFBEAA1AC9BDF44BDEEDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8EDF71B139A53B83002AF82 /* Build configuration list for PBXNativeTarget "Pods-OSU_PrinterTests-NMSSH" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70E5C0DAA1754BD6EDA4FEB9 /* Debug */,
+				CF6DD4AB90A87619D2265A8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2BA481B8A3547AA56E725EC /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B25C1AF4EC2F67F9A89EE16 /* Debug */,
+				4BC4D8183B648967A5E12C36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE22EC11CAA115479F5B45CB /* Build configuration list for PBXNativeTarget "Pods-OSU_Printer-CocoaLumberjack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8123AFC9A069C4F447F4972C /* Debug */,
+				8C8E2F8C44559C51190D5EFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E299CCAD9A071E553CDF21D9 /* Build configuration list for PBXNativeTarget "Pods-CocoaLumberjack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCD8F3E05C49062FD20A37CD /* Debug */,
+				266E0A18E536AFD2DDB6C25E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 560CFCE7313B6830F4AB618C /* Project object */;
+}

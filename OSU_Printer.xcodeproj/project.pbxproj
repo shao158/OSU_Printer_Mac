@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D2810FBDA82C5580DC32F05 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FBB986EF19B0E6C43B8757D1 /* libPods.a */; };
+		5F1949DB1B6EAD1E001B5830 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1949D91B6EAD1E001B5830 /* MasterViewController.m */; };
+		5F1949DC1B6EAD1E001B5830 /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F1949DA1B6EAD1E001B5830 /* MasterViewController.xib */; };
+		5F8653481B6EA85700000CC6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8653471B6EA85700000CC6 /* AppDelegate.m */; };
+		5F86534A1B6EA85700000CC6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8653491B6EA85700000CC6 /* main.m */; };
+		5F86534C1B6EA85700000CC6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F86534B1B6EA85700000CC6 /* Images.xcassets */; };
+		5F86534F1B6EA85700000CC6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F86534D1B6EA85700000CC6 /* MainMenu.xib */; };
+		5F86535B1B6EA85700000CC6 /* OSU_PrinterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F86535A1B6EA85700000CC6 /* OSU_PrinterTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5F8653551B6EA85700000CC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F8653391B6EA85700000CC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F8653401B6EA85700000CC6;
+			remoteInfo = OSU_Printer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3EED8D14BFEE202F00F3F225 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		5F1949D81B6EAD1E001B5830 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		5F1949D91B6EAD1E001B5830 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		5F1949DA1B6EAD1E001B5830 /* MasterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MasterViewController.xib; sourceTree = "<group>"; };
+		5F8653411B6EA85700000CC6 /* OSU_Printer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OSU_Printer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F8653451B6EA85700000CC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F8653461B6EA85700000CC6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5F8653471B6EA85700000CC6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5F8653491B6EA85700000CC6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5F86534B1B6EA85700000CC6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5F86534E1B6EA85700000CC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5F8653541B6EA85700000CC6 /* OSU_PrinterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OSU_PrinterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F8653591B6EA85700000CC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F86535A1B6EA85700000CC6 /* OSU_PrinterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSU_PrinterTests.m; sourceTree = "<group>"; };
+		DD495211F5A332D1B9419170 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		FBB986EF19B0E6C43B8757D1 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F86533E1B6EA85700000CC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D2810FBDA82C5580DC32F05 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F8653511B6EA85700000CC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F8653381B6EA85700000CC6 = {
+			isa = PBXGroup;
+			children = (
+				5F8653431B6EA85700000CC6 /* OSU_Printer */,
+				5F8653571B6EA85700000CC6 /* OSU_PrinterTests */,
+				5F8653421B6EA85700000CC6 /* Products */,
+				D70FC5E438F07EF563193152 /* Pods */,
+				9AA1B380318876F2BD804B63 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5F8653421B6EA85700000CC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F8653411B6EA85700000CC6 /* OSU_Printer.app */,
+				5F8653541B6EA85700000CC6 /* OSU_PrinterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F8653431B6EA85700000CC6 /* OSU_Printer */ = {
+			isa = PBXGroup;
+			children = (
+				5F8653461B6EA85700000CC6 /* AppDelegate.h */,
+				5F8653471B6EA85700000CC6 /* AppDelegate.m */,
+				5F1949D81B6EAD1E001B5830 /* MasterViewController.h */,
+				5F1949D91B6EAD1E001B5830 /* MasterViewController.m */,
+				5F1949DA1B6EAD1E001B5830 /* MasterViewController.xib */,
+				5F86534B1B6EA85700000CC6 /* Images.xcassets */,
+				5F86534D1B6EA85700000CC6 /* MainMenu.xib */,
+				5F8653441B6EA85700000CC6 /* Supporting Files */,
+			);
+			path = OSU_Printer;
+			sourceTree = "<group>";
+		};
+		5F8653441B6EA85700000CC6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F8653451B6EA85700000CC6 /* Info.plist */,
+				5F8653491B6EA85700000CC6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5F8653571B6EA85700000CC6 /* OSU_PrinterTests */ = {
+			isa = PBXGroup;
+			children = (
+				5F86535A1B6EA85700000CC6 /* OSU_PrinterTests.m */,
+				5F8653581B6EA85700000CC6 /* Supporting Files */,
+			);
+			path = OSU_PrinterTests;
+			sourceTree = "<group>";
+		};
+		5F8653581B6EA85700000CC6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F8653591B6EA85700000CC6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9AA1B380318876F2BD804B63 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FBB986EF19B0E6C43B8757D1 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D70FC5E438F07EF563193152 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DD495211F5A332D1B9419170 /* Pods.debug.xcconfig */,
+				3EED8D14BFEE202F00F3F225 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F8653401B6EA85700000CC6 /* OSU_Printer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F86535E1B6EA85700000CC6 /* Build configuration list for PBXNativeTarget "OSU_Printer" */;
+			buildPhases = (
+				26F5A3D980C5C2D517CF5089 /* Check Pods Manifest.lock */,
+				5F86533D1B6EA85700000CC6 /* Sources */,
+				5F86533E1B6EA85700000CC6 /* Frameworks */,
+				5F86533F1B6EA85700000CC6 /* Resources */,
+				95EECDE2701806B951CDCB8C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OSU_Printer;
+			productName = OSU_Printer;
+			productReference = 5F8653411B6EA85700000CC6 /* OSU_Printer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5F8653531B6EA85700000CC6 /* OSU_PrinterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F8653611B6EA85700000CC6 /* Build configuration list for PBXNativeTarget "OSU_PrinterTests" */;
+			buildPhases = (
+				5F8653501B6EA85700000CC6 /* Sources */,
+				5F8653511B6EA85700000CC6 /* Frameworks */,
+				5F8653521B6EA85700000CC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F8653561B6EA85700000CC6 /* PBXTargetDependency */,
+			);
+			name = OSU_PrinterTests;
+			productName = OSU_PrinterTests;
+			productReference = 5F8653541B6EA85700000CC6 /* OSU_PrinterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F8653391B6EA85700000CC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Shao158;
+				TargetAttributes = {
+					5F8653401B6EA85700000CC6 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = P3FWKAGHK2;
+					};
+					5F8653531B6EA85700000CC6 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 5F8653401B6EA85700000CC6;
+					};
+				};
+			};
+			buildConfigurationList = 5F86533C1B6EA85700000CC6 /* Build configuration list for PBXProject "OSU_Printer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F8653381B6EA85700000CC6;
+			productRefGroup = 5F8653421B6EA85700000CC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F8653401B6EA85700000CC6 /* OSU_Printer */,
+				5F8653531B6EA85700000CC6 /* OSU_PrinterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F86533F1B6EA85700000CC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F86534C1B6EA85700000CC6 /* Images.xcassets in Resources */,
+				5F86534F1B6EA85700000CC6 /* MainMenu.xib in Resources */,
+				5F1949DC1B6EAD1E001B5830 /* MasterViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F8653521B6EA85700000CC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26F5A3D980C5C2D517CF5089 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		95EECDE2701806B951CDCB8C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F86533D1B6EA85700000CC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F86534A1B6EA85700000CC6 /* main.m in Sources */,
+				5F1949DB1B6EAD1E001B5830 /* MasterViewController.m in Sources */,
+				5F8653481B6EA85700000CC6 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F8653501B6EA85700000CC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F86535B1B6EA85700000CC6 /* OSU_PrinterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5F8653561B6EA85700000CC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F8653401B6EA85700000CC6 /* OSU_Printer */;
+			targetProxy = 5F8653551B6EA85700000CC6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5F86534D1B6EA85700000CC6 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F86534E1B6EA85700000CC6 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F86535C1B6EA85700000CC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5F86535D1B6EA85700000CC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5F86535F1B6EA85700000CC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD495211F5A332D1B9419170 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OSU_Printer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Shao158.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = /Users/jinjinshao/Documents/MacApp/OSU_Printer/OSU_Printer;
+			};
+			name = Debug;
+		};
+		5F8653601B6EA85700000CC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EED8D14BFEE202F00F3F225 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OSU_Printer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Shao158.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = /Users/jinjinshao/Documents/MacApp/OSU_Printer/OSU_Printer;
+			};
+			name = Release;
+		};
+		5F8653621B6EA85700000CC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OSU_PrinterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Shao158.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OSU_Printer.app/Contents/MacOS/OSU_Printer";
+			};
+			name = Debug;
+		};
+		5F8653631B6EA85700000CC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OSU_PrinterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Shao158.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OSU_Printer.app/Contents/MacOS/OSU_Printer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F86533C1B6EA85700000CC6 /* Build configuration list for PBXProject "OSU_Printer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F86535C1B6EA85700000CC6 /* Debug */,
+				5F86535D1B6EA85700000CC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F86535E1B6EA85700000CC6 /* Build configuration list for PBXNativeTarget "OSU_Printer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F86535F1B6EA85700000CC6 /* Debug */,
+				5F8653601B6EA85700000CC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F8653611B6EA85700000CC6 /* Build configuration list for PBXNativeTarget "OSU_PrinterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F8653621B6EA85700000CC6 /* Debug */,
+				5F8653631B6EA85700000CC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F8653391B6EA85700000CC6 /* Project object */;
+}
